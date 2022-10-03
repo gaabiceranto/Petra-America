@@ -1,0 +1,389 @@
+/* Importa a Font Diretamente do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-image: url(./assets/background--header-edit.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    width: 100vw;
+    height: 700px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  36px 102px;
+    max-width: 1440px; 
+    margin: 0 auto; 
+}
+
+nav div{
+    margin: 0;
+    display: flex;
+    gap: 40px;
+}
+
+figure img{
+    width: 31px;
+    height: 31px;
+}
+
+figure p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 28px;
+    color: white;
+    }
+
+figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+ul li{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.btn-yellow {
+    font-weight: 500;
+    background: #F7A200;
+    border-radius: 6px;
+    padding: 15px 52px;
+    color: white;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.btn-white {
+    font-weight: 500;
+    background: white;
+    border-radius: 6px;
+    padding: 15px 52px;
+    color: #F7A200;
+    border: 1px solid #F7A200;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    max-width: 1440px; 
+    margin: 0 auto; 
+}
+
+
+section h1 {
+    font-weight: 700;
+    color: white;
+    font-size: 68px;
+}
+
+section p {
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.col-1 {
+    margin: 0 auto;
+}
+
+.col-1 div {
+    display: flex;
+    gap: 16px;
+}
+
+
+.col-2 {
+    width: 75vw;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1440px; 
+    margin: 100px auto; 
+}
+
+h2 {
+    font-size: 38px;
+    color: black;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.power-text p {
+    font-size: 22px;
+    font-weight: 400;
+    width: 641px;
+    height: 52px;
+    text-align: center;
+    margin: 0;
+    
+}
+.power-text  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px 0 0px;
+    
+}
+
+
+.pay-text  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 400px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 320px;
+
+}
+.p-h3 {
+    font-size: 18px;
+    width: 214px;
+    height: 44px;
+    text-align: center;
+}
+
+/* Colocar cada ícone em seu lugar de acordo com o layout no Figma */
+.delivery {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    left: 426px;
+    top: 1724px;
+}
+
+.store {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    left: 224px;
+    top: 1335px;
+}
+
+.bitcoin {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 426px;
+    top: 1434px;
+}
+
+.cash {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 700px;
+    top: 1691px;
+}
+
+.cesta {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    left: 919px;
+    top: 1725px;
+}
+
+.etherium {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 968px;
+    top: 1479px;
+}
+
+.pc-cash {
+    position: absolute;
+width: 109px;
+height: 109px;
+left: 1137px;
+top: 1335px;
+}
+
+.card {
+    position: absolute;
+    width: 109px;
+    height: 109px;
+    left: 676px;
+    top: 1246px;
+
+}
+
+.pattern {
+    position: absolute;
+    top: 1857px;
+}
+
+.pay-in{
+    display: flex;
+    padding: 0 180px;
+    justify-content: space-between;
+    max-width: 1440px; 
+    margin: 100px auto; 
+}
+.pay-in h4{
+    font-size: 22px;
+    width: 316px;
+    margin: 10px 0;
+}
+
+.pay-in p{
+    font-size: 16px;
+    width: 370px;
+    margin: 10px 0;
+}
+
+.pay-in-text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.pay-in-text div {
+    padding-left: 32px;
+    border-left: 3px solid #D1D1D1;
+    
+     
+}
+.pay-in-text div :hover {
+    border-left: 3px solid #F7A200;
+}
+
+.cto {
+    display: flex;
+    background-image: url(./assets/pattern-2.png);
+    max-width: 100vw; 
+    justify-content: center;
+    padding: 50px;
+}
+
+.text-get{
+    display: flex;
+    background-color: #2D374C;
+    width: 985px;
+    height: 144px;
+    border-radius: 26px;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.text-get div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.text-get div h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+.text-get div p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    margin: 0;
+}
+
+.text-get button{
+    font-weight: 500;
+    background: #219653;
+    border-radius: 6px;
+    padding: 15px 52px;
+    color: white;
+    border-width: 0;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    max-width: 1440px; 
+    margin: 0 auto; 
+    justify-content: space-between;
+    padding: 100px 100px ;
+    
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer h3{
+    font-size: 22px;
+    width: 316px;
+    margin: 10px 0;
+}
+
+footer a{
+    font-size: 16px;
+    width: 370px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+footer p{
+    font-size: 16px;
+    width: 370px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+hr {
+    border: 0px;
+    border-top: 1px solid gray;
+    width: 1200px;
+}
+
+.copy{
+    display: flex;
+    font-size: 16px;
+    margin: 30px 0;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+}
