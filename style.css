@@ -183,69 +183,42 @@ h3 {
 }
 
 /* Colocar cada ícone em seu lugar de acordo com o layout no Figma */
-.delivery {
+.delivery,.store,.cesta,.pc-cash,.card {
     position: absolute;
     width: 109px;
     height: 109px;
-    left: 426px;
-    top: 1724px;
 }
 
-.store {
-    position: absolute;
-    width: 109px;
-    height: 109px;
-    left: 224px;
-    top: 1335px;
-}
-
-.bitcoin {
+.bitcoin,.cash,.etherium {
     position: absolute;
     width: 54px;
     height: 54px;
-    left: 426px;
-    top: 1434px;
+}
+.icons :nth-child(1) {
+    transform: translate(-238px,-262px);
 }
 
-.cash {
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    left: 700px;
-    top: 1691px;
+.icons :nth-child(2) {
+    transform: translate(-385px,-672px);
 }
 
-.cesta {
-    position: absolute;
-    width: 109px;
-    height: 109px;
-    left: 919px;
-    top: 1725px;
+.icons :nth-child(3) {
+    transform: translate(-237px,-558px);
 }
-
-.etherium {
-    position: absolute;
-    width: 54px;
-    height: 54px;
-    left: 968px;
-    top: 1479px;
+.icons :nth-child(4) {
+    transform: translate(0px,-366px);
 }
-
-.pc-cash {
-    position: absolute;
-width: 109px;
-height: 109px;
-left: 1137px;
-top: 1335px;
+.icons :nth-child(5) {
+    transform: translate(260px,-263px);
 }
-
-.card {
-    position: absolute;
-    width: 109px;
-    height: 109px;
-    left: 676px;
-    top: 1246px;
-
+.icons :nth-child(6) {
+    transform: translate(305px,-502px);
+}
+.icons :nth-child(7) {
+    transform: translate(305px,-694px);
+}
+.icons :nth-child(8) {
+    transform: translate(0px,-733px);
 }
 
 .pattern {
@@ -339,7 +312,7 @@ top: 1335px;
 
 footer {
     display: flex;
-    max-width: 1440px; 
+    width: 100vw; 
     margin: 0 auto; 
     justify-content: space-between;
     padding: 100px 100px ;
@@ -386,4 +359,9 @@ hr {
     color: black;
     flex-direction: column;
     align-items: center;
+}
+.icons {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
 }
