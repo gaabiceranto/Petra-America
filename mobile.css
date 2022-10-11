@@ -1,3 +1,27 @@
 @media (max-width: 480px) {
-   
+    
+    header {
+        background-size:auto;
+    }
+    
+    footer{
+        flex-direction: column;
+       }
+
+       .pay-in{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+       }
+
+       aside {
+        display: none;
+       }
+
+       ul{
+        display: none;
+       }
+
+       .pattern {
+        display: none;
+       }
 }

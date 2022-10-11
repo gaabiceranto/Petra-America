@@ -24,7 +24,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding:  36px 0;
-    max-width: 1440px; 
     margin: 0 100px; 
 }
 
@@ -129,7 +128,6 @@ aside {
     display: flex;
     justify-content: center;
     gap: 50px;
-    max-width: 1440px; 
     margin: 100px auto; 
 }
 
@@ -228,7 +226,6 @@ h3 {
     display: flex;
     padding: 0 180px;
     justify-content: space-between;
-    max-width: 1440px; 
     margin: 100px auto; 
 }
 .pay-in h4{
@@ -345,7 +342,7 @@ footer p{
 hr {
     border: 0px;
     border-top: 1px solid gray;
-    width: 1200px;
+    width: 80vw;
 }
 
 .copy {
