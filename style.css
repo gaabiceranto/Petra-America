@@ -75,7 +75,7 @@ ul li a{
     font-weight: 500;
     background: #F7A200;
     border-radius: 6px;
-    padding: 15px 52px;
+    padding: 15px 43px;
     color: white;
     border-width: 0;
     cursor: pointer;
@@ -141,17 +141,14 @@ h2 {
 .power-text p {
     font-size: 22px;
     font-weight: 400;
-    width: 641px;
-    height: 52px;
+    width: 100vw;
     text-align: center;
     margin: 0;
-    
+    justify-content: center;
 }
 .power-text  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 130px 0 0px;
+    text-align: center;
     
 }
 
@@ -327,14 +324,12 @@ footer h3{
 
 footer a{
     font-size: 16px;
-    width: 370px;
     margin: 10px 0;
     text-decoration: none;
     color: black;
 }
 footer p{
     font-size: 16px;
-    width: 370px;
     margin: 10px 0;
     text-decoration: none;
     color: black;

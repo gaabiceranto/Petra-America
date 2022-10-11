@@ -1,11 +1,24 @@
 @media (max-width: 480px) {
     
     header {
-        background-size:auto;
+        background-size:cover;
+        background-position:center center;
+    
+
+    }
+
+    .col-2, .etherium, .cesta, .pc-cash{
+        display: none;
     }
     
     footer{
+        text-align: center;
         flex-direction: column;
+        gap: 20px;
+       }
+
+       footer div{
+        align-items: center;
        }
 
        .pay-in{
@@ -24,4 +37,40 @@
        .pattern {
         display: none;
        }
+
+       .power-text p {
+        width: 0px;
+    }
+
+    .img-people img{
+        width: 87vw;
+    }
+
+    section, nav{
+        margin: 0 30px;
+    }
+
+    section h1{
+        font-size: 24px;
+    }
+    section p{
+        font-size: 22px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    .power-text {
+        margin: 130px 0 30px;
+    }
+    .power-text p{
+       width: 100vw;
+    }
+
+    .text-get{
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 }
