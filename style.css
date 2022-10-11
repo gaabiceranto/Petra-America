@@ -224,6 +224,9 @@ h3 {
     padding: 0 180px;
     justify-content: space-between;
     margin: 100px auto; 
+   flex-wrap: wrap-reverse;
+
+
 }
 .pay-in h4{
     font-size: 22px;
@@ -312,6 +315,7 @@ footer {
 footer div {
     display: flex;
     flex-direction: column;
+    
 }
 
 
